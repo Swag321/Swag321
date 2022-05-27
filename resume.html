@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume.css">
+    <title>Resume Builder</title>
+</head>
+<body>
+    <div class="banner">
+        <p>Swagat Adhikary <br> Web-115 Section 0001 <br> Build A Resume</p>
+    </div>
+
+    <form>
+
+        <div class="name">
+            <label for="fName">First Name: </label>
+            <input type="text" id="fName" name="fName"> <br>
+            <label for="lName">Last name: </label>
+            <input type="text" id="lName" name="lName">
+        </div>
+        <div class="address">
+            <label for="street">Street Address: <input type="text" id="street"></label><br>
+            <label for="city">City: <input type="text" id="city"></label><br>
+            <label for="state">State: <input type="text" id="state"></label><br>
+            <label for="zip">Zip Code: <input type="number" id="zip"></label>
+        </div>
+        <div class="contact">
+            <label for="phone">Phone Number: <input type="tel" id="phone"></label><br>
+            <label for="email">Email(Required): <input type="email" id="email"></label>
+        </div>
+        <div class="education">
+            <h4>Choose Your Highest Level of Education: </h4>
+
+                <input type="radio" id="doctoral" name="school" value="Doctoral Degree">
+                <label for="doctoral">Doctoral Degree</label><br>
+                <input type="radio" id="masters" name="school" value="Master's Degree">
+                <label for="masters">Master's</label><br>
+                <input type="radio" id="bachelor" name="school" value="Bachelor's Degree">
+                <label for="bachelor">Bachelor's</label><br>
+                <input type="radio" id="associate" name="school" value="Associate's Degree">
+                <label for="associate">Associate's</label><br>
+                <input type="radio" id="someCollege" name="school" value="Some College">
+                <label for="someCollege">Some College</label><br>
+                <input type="radio" id="highSchool" name="school" value="Some High School">
+                <label for="highSchool">Some High School</label><br>
+            
+            <input type="text" id="schoolName" placeholder="Name of Highest Schooling">
+            <label for="grad">&nbsp &nbsp &nbsp &nbsp Date of Graduation: </label>
+            <input type="date" id="graduation" name="grad">&nbsp; &nbsp;
+            <textarea name="schoolDetail" placeholder="Enter details such as ranking, gpa, test scores, etc with labels" id="schoolDetail" cols="65" rows="1"></textarea>
+        </div>
+
+        <div class="experience">
+            <h4>Enter upto three most recent jobs (Optional): </h4>
+            <input type="text" id="job1" placeholder="Name of Company/Organization">
+            <label for="start1">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Start Date: </label>
+            <input type="date" id="start1" name="start1"> 
+            <label for="end1">&nbsp &nbsp &nbsp &nbsp End Date: </label>
+            <input type="date" id="end1" name="end1">
+            &nbsp;&nbsp;<textarea name="jobDetail1" placeholder="Leadership position, job description, reason for leaving, etc." id="jobDetail1" cols="65" rows="1"></textarea>
+
+<br>
+            <input type="text" id="job2" placeholder="Name of Company/Organization">
+            <label for="start2">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Start Date: </label>
+            <input type="date" id="start2" name="start2"> 
+            <label for="end2">&nbsp &nbsp &nbsp &nbsp End Date: </label>
+            <input type="date" id="end2" name="end2"> 
+            &nbsp;&nbsp;<textarea name="jobDetail2" placeholder="Leadership position, job description, reason for leaving, etc." id="jobDetail2" cols="65" rows="1"></textarea>
+
+<br>
+            <input type="text" id="job3" placeholder="Name of Company/Organization">
+            <label for="start3">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Start Date: </label>
+            <input type="date" id="start3" name="start3"> 
+            <label for="end3">&nbsp &nbsp &nbsp &nbsp End Date: </label>
+            <input type="date" id="end3" name="end3"> 
+            &nbsp;&nbsp;<textarea name="jobDetail3" placeholder="Leadership position, job description, reason for leaving, etc." id="jobDetail3" cols="65" rows="1"></textarea>
+
+<br>
+        </div><br>
+
+
+        <input type="button" id="submit" value = "Create Resume">
+        
+    </form>
+    <script src="resume.js"> </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    background-color: gray;
+    font-size: 150%;
+    margin-left: 2%;
+}
+.address{
+    color: yellow;
+}
+.contact{
+    color: red;
+}
+.name{
+    color: black;
+    font-size: 250%;
+    border-bottom: thick solid black;
+    padding-bottom: 0%;
+    margin-bottom: 2%;
+}
+.l\,f{
+    margin: 0%;
+
+} 
+.education{
+    border:thick dashed whitesmoke;
+    padding: 1%;
+    margin: 0 2% 2% 2%;
+}
+.experience{
+    padding: 1%;
+    margin: 0 2% 2% 2%;
+    border: thick double black;
+}
+.subhead{
+    color: violet;
+    margin-left: 5%;
+    font-style: oblique;
+}
+
+.forDates{
+    color: white;
+    font-weight: lighter;
+}
+.job1,.job2,.job3,.schoolName{
+    color: blue;
+    font-weight: bolder;
+}
+.jobDetail{
+    margin-left: 5%;
+    border-bottom: thin dotted orange;
+}
+
+
+
+
+
