@@ -1,0 +1,51 @@
+body{
+    background-color: peachpuff;
+}
+header h1, section h2 {
+    color: blueviolet;
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: gray;
+    font-weight: bold;
+}
+header h2{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3%;
+    background-color: rgb(155, 153, 153);
+}
+p {
+    font-weight: bold;
+    text-align: justify;
+
+}
+section{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+section p{
+    font-size: larger;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+a{
+    font-size: larger;
+}
+a:visited{
+    color: green;
+}
+a:focus{
+    color: black;
+    background-color: white;
+}
+footer{
+    background-color: orange;
+    font-size: larger;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+footer ul{
+    text-align: justify;
+    list-style-type:square;
+}
