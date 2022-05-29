@@ -1,0 +1,43 @@
+table{
+    border: purple solid;
+    text-align: center;
+    margin: 2%;
+    width: 50%;
+    
+}
+td, th{
+    border: greenyellow solid thick;
+    background-color: azure;
+}
+th{
+    background-color: black;
+    color: white;
+    border: purple solid;
+}
+#lowest{
+    color: blue;
+    background-color: rgba(197, 228, 236, 0.719);
+    font-weight: bold;
+}
+td:first-child{
+    text-align: left;
+}
+td[colspan="3"]{
+    background-color: lightgray;
+    border-bottom: 10px rgb(134, 134, 134) solid;
+    text-align: center;
+}
+tfoot td{
+    background-color: black;
+    color: white;
+}
+tfoot td[colspan="3"]{
+    background-color: azure;
+    color: black;
+    border-bottom: greenyellow solid thick;
+}
+#highest{
+    color: red;
+    background-color: rgb(233, 224, 224);
+    font-weight: bold;
+}
